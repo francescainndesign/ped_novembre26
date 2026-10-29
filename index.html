@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Grotta Marcello — approvazioni ottobre</title>
+<title>Grotta Marcello — approvazioni novembre</title>
 <!--
   COME SI USA (per Fra)
 
@@ -138,8 +138,8 @@ footer button{
 </head>
 <body>
 <header>
-  <h1>Grotta Marcello · ottobre</h1>
-  <p>Nove post in ordine di uscita. Per ognuno: approva, chiedi una modifica o rifiuta.</p>
+  <h1>Grotta Marcello · novembre</h1>
+  <p>Sette post in ordine di uscita. Per ogni post: approva, chiedi una modifica o rifiuta.</p>
 </header>
 
 <div class="chi">
@@ -263,7 +263,7 @@ function aggiornaConto(){
 }
 
 document.getElementById('invia').onclick = () => {
-  let righe = ['Piano ottobre — decisioni di ' + sel.value + ':', ''];
+  let righe = ['Piano novembre — decisioni di ' + sel.value + ':', ''];
   POSTS.forEach(p => {
     const st = decisione(p.id);
     let r = p.data.split(' ')[1] + ' ' + p.data.split(' ')[2] + ' — ' + p.titolo + ': ' + (st.dec ? ETI[st.dec] : 'non visto');

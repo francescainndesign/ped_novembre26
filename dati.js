@@ -1,6 +1,6 @@
 /*
-  DIDASCALIE E POST DI OTTOBRE
-  
+  DIDASCALIE E POST DI NOVEMBRE
+
   Questo è l'unico file da toccare per cambiare le didascalie.
   Si apre con Blocco note. Dopo aver salvato, basta ricaricare la pagina.
 
@@ -14,102 +14,98 @@
 const POSTS = [
 
   {
-    id: "2026-10-02",
-    data: "Venerdì 2 ottobre",
-    titolo: "Il cuoco",
+    id: "2026-11-02",
+    data: "Lunedì 2 novembre, mattina",
+    titolo: "Il nostro ritmo",
+    formato: "Carosello · 2 slide",
+    media: [{ type: "image", src: "media/orari_1.jpg" }, { type: "image", src: "media/orari_2.jpg" }],
+    caption: `Ogni luogo ha il suo ritmo. Anche noi, da novembre, cambiamo un po' il nostro.
+Abbiamo scelto orari nuovi pensando a come far vivere Grotta ogni giorno, e alle persone che ci lavorano insieme a noi.
+E la domenica ci trovi anche a pranzo.
+
+Lun - Gio: 18:00 / 00:00
+Ven: 18:00 / 02:00
+Sab: 17:00 / 02:00
+Dom: 11:00 / 00:00
+
+Il nostro ritmo cambia. Il piacere di ritrovarci resta.`,
+    note: `Esce la mattina, non alle 18, perché gli orari nuovi partono quel giorno.`
+  },
+
+  {
+    id: "2026-11-06-pizza",
+    data: "Venerdì 6 novembre",
+    titolo: "Questa non è una pizza",
     formato: "Foto",
-    media: [{ type: "image", src: "media/cuoco.jpg" }],
-    caption: `Dietro ogni momento trascorso in Grotta c'è il lavoro silenzioso in cucina, la cura nei gesti e la passione nell'impiattare per regalarvi una serata speciale.`,
+    media: [{ type: "image", src: "media/pizza_teaser.jpg" }],
+    caption: `Questa non è una pizza.`,
+    note: `Primo indizio: il progetto IED si scopre il 10.`
+  },
+
+  {
+    id: "2026-11-10-ied",
+    data: "Martedì 10 novembre",
+    titolo: "Questa non è una t-shirt",
+    formato: "Carosello · 5 slide",
+    media: [{ type: "image", src: "media/ied_1.jpg" }, { type: "image", src: "media/ied_2.jpg" }, { type: "image", src: "media/ied_3.jpg" }, { type: "image", src: "media/ied_4.jpg" }, { type: "image", src: "media/ied_5.jpg" }],
+    caption: `Questa non è una t-shirt. O almeno, non soltanto.
+Nel 2025 un gruppo di studenti dello IED di Cagliari ha immaginato Grotta con un progetto fatto di ironia e illustrazioni surreali.
+Il progetto vincitore, Questa non è una presentazione, si ispira a Magritte e trasforma oggetti di tutti i giorni in qualcosa di inaspettato.
+Oggi quelle idee sono ancora qui: sulle divise del nostro staff, sui sottobicchieri e in tanti dettagli della vita in Grotta.
+Ci piace pensare che un progetto nato per una presentazione sia diventato parte di questo posto.
+Grazie a chi ha immaginato tutto questo.
+[Crediti del progetto e degli studenti]`,
+    note: `Il progetto degli studenti IED. Prima di pubblicare: ok degli studenti e loro tag.`
+  },
+
+  {
+    id: "2026-11-13-calice",
+    data: "Venerdì 13 novembre",
+    titolo: "Questo non è un calice",
+    formato: "Foto",
+    media: [{ type: "image", src: "media/calice_teaser.jpg" }],
+    caption: `Questo non è un calice.`,
     note: ``
   },
 
   {
-    id: "2026-10-06",
-    data: "Martedì 6 ottobre",
-    titolo: "A tavola",
+    id: "2026-11-18-pranzo",
+    data: "Mercoledì 18 novembre",
+    titolo: "Il pranzo della domenica",
+    formato: "Foto",
+    media: [{ type: "image", src: "media/pranzo_2.jpg" }],
+    caption: `La domenica ha un altro ritmo.
+
+Da novembre, il pranzo della domenica diventa un appuntamento fisso: per ritrovarsi intorno a un tavolo, prendersi il proprio tempo e vivere il locale in un momento diverso della giornata.
+
+La stessa Grotta, un altro momento da condividere.
+La domenica apriamo alle 11:00.
+
+Ci vediamo in Grotta.`,
+    note: ``
+  },
+
+  {
+    id: "2026-11-21-comanda",
+    data: "Sabato 21 novembre",
+    titolo: "La comanda",
+    formato: "Foto",
+    media: [{ type: "image", src: "media/comanda.jpg" }],
+    caption: `Un dettaglio curato parte sempre da chi lo prepara.
+In Grotta facciamo formazione con la nostra squadra, dai corsi di vendita al servizio in sala.
+E qualcosa si impara anche così, una comanda alla volta.`,
+    note: `Serve il consenso delle due persone in foto. Da confermare con Angelo che i corsi riguardano anche il servizio in sala.`
+  },
+
+  {
+    id: "2026-11-27",
+    data: "Venerdì 27 novembre",
+    titolo: "La galleria del telefono",
     formato: "Reel · 11 secondi",
-    media: [{ type: "video", src: "media/reel_tapas.mp4" }],
-    caption: `Un tavolo, quattro forchette e nessuno che aspetta il proprio turno. ✨
-Un brindisi insieme, piattini da condividere al centro del tavolo e la voglia di assaggiare tutto subito. La nostra idea di serata è esattamente questa: convivialità pura, buona compagnia e drink che accompagnano ogni assaggio.
-📍 Grotta Marcello – Cagliari 📲 Prenota il tuo tavolo dal link in bio`,
-    note: ``
-  },
-
-  {
-    id: "2026-10-09",
-    data: "Venerdì 9 ottobre",
-    titolo: "La cella",
-    formato: "Foto",
-    media: [{ type: "image", src: "media/cella.jpg" }],
-    caption: `Prima di arrivare in tavola, ogni ingrediente ha il suo tempo.
-La scelta, la conservazione, la cura: sono gesti che magari non si vedono, ma fanno parte di ogni piatto.`,
-    note: `Post previsto a settembre e non uscito.`
-  },
-
-  {
-    id: "2026-10-13",
-    data: "Martedì 13 ottobre",
-    titolo: "La pasta",
-    formato: "Reel · 12 secondi",
-    media: [{ type: "video", src: "media/reel_pasta.mp4" }],
-    caption: `I gesti della cucina, il silenzio prima del servizio, l'attesa al tavolo. ⏱️✨
-Il ritmo in Grotta ha una musica tutta sua: fatta di passaggi veloci, impiattamenti precisi e cura costante, per trasformare ogni serata in un'esperienza da gustare con calma.`,
-    note: ``
-  },
-
-  {
-    id: "2026-10-16",
-    data: "Venerdì 16 ottobre",
-    titolo: "La pizza",
-    formato: "Foto",
-    media: [{ type: "image", src: "media/pizza.jpg" }],
-    caption: `Vederla completare sul banco e sapere che sta arrivando proprio al tuo tavolo. 🍕✨
-C'è un momento preciso della serata in cui il profumo anticipa il servizio e l'attesa si trasforma subito in voglia di condividere.`,
-    note: ``
-  },
-
-  {
-    id: "2026-10-20",
-    data: "Martedì 20 ottobre",
-    titolo: "Il Turriga",
-    formato: "Foto",
-    media: [{ type: "image", src: "media/turriga.jpg" }],
-    caption: `Scegliere la bottiglia giusta è il primo passo per dare la direzione a una grande serata. ✨
-Dietro ogni calice versato c'è la ricerca di storie, territorio e produttori che rappresentano l'eccellenza della nostra isola, come @argiolaswine.`,
-    note: `Con il tag alla cantina Argiolas.`
-  },
-
-  {
-    id: "2026-10-23",
-    data: "Venerdì 23 ottobre",
-    titolo: "Dalla cucina",
-    formato: "Foto",
-    media: [{ type: "image", src: "media/cameriere.jpg" }],
-    caption: `Quel momento esatto in cui vedi il cameriere uscire dalla cucina e speri fortissimo che stia venendo verso il tuo tavolo. 👀
-Dal pass alla sala, arriviamo.`,
-    note: `Serve il consenso del cameriere.`
-  },
-
-  {
-    id: "2026-10-27",
-    data: "Martedì 27 ottobre",
-    titolo: "La carne",
-    formato: "Reel · 12 secondi",
-    media: [{ type: "video", src: "media/reel_carne.mp4" }],
-    caption: `Dal tagliere al fuoco, dal fuoco al piatto. 🔥
-Ogni sera lo stesso giro, fatto di fumo, colpi decisi di coltello sul tagliere e quel pizzico di sale prima del servizio. Una sinfonia in cucina che si ripete ogni volta, perché ogni sera c'è qualcuno che al tavolo la sta aspettando.`,
-    note: ``
-  },
-
-  {
-    id: "2026-10-30",
-    data: "Venerdì 30 ottobre",
-    titolo: "Il banco prima dell'apertura",
-    formato: "Foto",
-    media: [{ type: "image", src: "media/sala.jpg" }],
-    caption: `Le luci si accendono, i tavoli sono pronti e la Grotta si scalda. ✨
-C'è un momento di silenzio perfetto prima che la sala si riempia di voci, calici che brindano e risate. È l'istante in cui tutto è al suo posto, pronto per trasformarsi nella vostra serata.`,
-    note: ``
+    media: [{ type: "video", src: "media/reel_rullino.mp4" }],
+    caption: `Lo sappiamo, succede a tutti.
+Quante foto avete scattato l’ultima volta in Grotta?`,
+    note: `Versione di prova: il ritmo verrà reso più veloce. La silhouette e la birra Messina restano solo se approvate.`
   }
 
 ];
